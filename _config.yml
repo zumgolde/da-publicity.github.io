@@ -2,7 +2,7 @@
 title:       Donate Altenburger
 email:       
 author:      Donate Altenburger
-description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
+description: "freelance public relations and social media manager"
 baseurl:     ""
 url:         "http://altenburger-pr.de"
 date_format: "%Y-%m-%d" 
@@ -18,13 +18,13 @@ bing_verification:
 
 # Optional features
 animated:             true
-show_related_posts:   true
-show_post_footers:    true
+show_related_posts:   false
+show_post_footers:    false
 show_social_icons:    false
 ajaxify_contact_form: false
-enable_mathjax: false
-extended_fonts: false
-enable_anchorjs: false
+enable_mathjax: true
+extended_fonts: true
+enable_anchorjs: true
 
 # Facebook Page integration
 # (for instant articles and other stuff)
