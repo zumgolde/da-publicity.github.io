@@ -3,7 +3,7 @@ title:       Donate Altenburger PR
 email:       
 author:      Donate Altenburger
 
-vcard_qrcode: qrcode.png
+qrcard:      "images/qrcode.png"
 
 description: "Berlin based freelance public relations and social media manager specialized in literature and art suitable for children."
 baseurl:     ""
