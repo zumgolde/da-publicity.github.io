@@ -6,4 +6,4 @@ summary:    Just great emtpiness
 categories: orders
 ---
 
-Lorem ipsum dolor sit amet.
+NIL
