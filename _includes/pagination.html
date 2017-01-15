@@ -1,4 +1,4 @@
-{% if paginator.total_posts <= site.paginate %}
+{% if site.paginate >= paginator.total_posts  %}
 <div class="pagination clearfix mb1 mt4">
   <div class="left">
     {% if paginator.previous_page %}
@@ -18,6 +18,8 @@
       <span class="pagination-item disabled">{{ site.text.pagination.older }}</span>
     {% endif %}
   </div>
-  <!-- <div class="pagination-meta">Page {{ paginator.page }} of {{ paginator.total_pages }}</div> -->
+ {% if paginator.total_pages != 1 %}
+  <div class="pagination-meta">Page {{ paginator.page }} of {{ paginator.total_pages }}</div>
+ {% endif %}
 </div>
 {% endif %}
