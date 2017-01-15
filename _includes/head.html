@@ -1,4 +1,13 @@
 <head>
+    <style>
+         #qrcode::after {
+             content: "{{ site.vcard_message }}";
+             background-color: #000000;
+             color: #FFFFFF;
+             padding: 0;
+         }
+    </style>
+    
     {% if site.google_tag_manager %}
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
