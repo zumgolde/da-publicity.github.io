@@ -8,8 +8,8 @@ layout: default
     <div class="posts">
       {% for post in paginator.posts %}
       
-      <a href="{{ post.url | prepend: site.baseurl }}" class="post-link post py3">
-        <div>
+      <a href="{{ post.url | prepend: site.baseurl }}" class="post-link py3">
+        <div class="post py3">
           <p class="post-meta">{{ post.date | date: site.date_format }}</p>
           <h3 class="h1 post-title">{{ post.title }}</h3>
           <p class="post-summary">
@@ -21,6 +21,7 @@ layout: default
           </p>
         </div>
       </a>
+      
       {% endfor %}
     </div>
 
