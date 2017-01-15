@@ -1,4 +1,4 @@
-{% if paginator.total_posts <= site.pagination %}
+{% if paginator.total_posts <= site.paginate %}
 <div class="pagination clearfix mb1 mt4">
   <div class="left">
     {% if paginator.previous_page %}
@@ -20,4 +20,4 @@
   </div>
   <!-- <div class="pagination-meta">Page {{ paginator.page }} of {{ paginator.total_pages }}</div> -->
 </div>
-{% endif }}
+{% endif %}
