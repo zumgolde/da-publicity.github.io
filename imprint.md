@@ -7,14 +7,13 @@ Gebäude 44<br />
 90210 Musterstadt
 </p>
 <h2>Kontakt:</h2>
-<table><tr>
-<td>Telefon:</td>
-<td>+49 (0) 123 44 55 66</td></tr>
-<tr><td>Telefax:</td>
-<td>+49 (0) 123 44 55 99</td></tr>
-<tr><td>E-Mail:</td>
-<td>mustermann@musterfirma.de</td>
-</tr></table>
+<p>Telefon:<br />
++49 (0) 123 44 55 66<br />
+Telefax:<br />
++49 (0) 123 44 55 99<br/>
+E-Mail:<br/>
+mustermann@musterfirma.de<br />
+</p>
 <h2>Umsatzsteuer-ID:</h2>
 <p>Umsatzsteuer-Identifikationsnummer gemäß §27 a Umsatzsteuergesetz:<br />
 DE 999 999 999</p>
