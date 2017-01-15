@@ -3,9 +3,9 @@ title:       Donate Altenburger PR
 email:       
 author:      Donate Altenburger
 
-qrcard:      "images/qrcode.jpeg"
-avatar:      
-logo:        "images/megaphone_shadow.jpeg"
+# Logo images has to be /images/logo.png
+# QR-Code with VCard data /images/qrcard.png
+# Avatar has to be named with /images/avatar.png
 
 description: "Berlin based freelance public relations and social media manager specialized in literature and art suitable for children."
 baseurl:     ""
