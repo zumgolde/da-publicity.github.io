@@ -4,6 +4,7 @@ email:
 author:      Donate Altenburger
 
 # Logo images has to be /images/logo.png
+qrcard:      "images/qrcode.png"
 # QR-Code with VCard data /images/qrcard.png
 # Avatar has to be named with /images/avatar.png
 
