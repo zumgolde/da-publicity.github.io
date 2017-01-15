@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Present Projects
+title: Past & present projects
 permalink: /projects/
 tags: projects
 ---
