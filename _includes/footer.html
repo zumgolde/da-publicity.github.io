@@ -1,15 +1,6 @@
-<style>
-#qrcode::after {
-  content: "{{ site.vcard_message }}";
-  background-color: #000000;
-  color: #FFFFFF;
-  padding-bottom:1em; padding-right:-1em;
-}
-</style>
-
 <footer class="center">
   <div class="measure">
-    <a href="{{ site.baseurl }}/{{ site.vcard }}"><img id="qrcode" src="{{ site.qrcard }}" width="75" height="75" alt="{{ site.vcard_message }}" /></a>
+    <a href="{{ site.baseurl }}/{{ site.vcard }}"><img id="qrcode" <style="#qrcode::after { content: "{{ site.vcard_message }}"; background-color: #000000; color: #FFFFFF; padding-bottom:1em; padding-right:-1em; }" src="{{ site.qrcard }}" width="75" height="75" alt="{{ site.vcard_message }}" /></a>
   </div>
 </footer>
 {% if site.enable_anchorjs %}<!-- AnchorJS -->
