@@ -9,7 +9,7 @@ logo:        "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0i
 qrcard:      "images/qrcode.png"
 avatar:      "images/me.jpeg"
 
-description: "Berlin based freelance public relations and social media manager specialized in literature and art suitable for children."
+description: "Berlin based freelance public relations and social media manager specialized in literature and music suitable for children."
 baseurl:     ""
 url:         "http://altenburger-pr.de"
 date_format: "%Y-%m-%d" 
