@@ -6,4 +6,4 @@ tags: about
 ---
 
 She is a Berlin based freelance public relations manager.  
-Both customers and journalists, appreciate her for being wonderfully unagitated and hands-on. Donate appreciates projects that are made with &#x2764;.
+Business partners and journalists appreciate her for being both unagitated and hands-on. Donate appreciates projects that are [made with &#x2764;](/projects/). 
