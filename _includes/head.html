@@ -30,19 +30,19 @@
     <!-- Eye-friendly colors at night *quick and dirty!* -->
     <style>
         .day { color: #444; background-color: #CCC; }
-        .night { color: #CCC; background-color: #444; filter: invert(100%);}
+        .night { color: #444; background-color: #CCC; filter: invert(100%);}
     </style>
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
-    <script>
+    <script type="text/javascript">
         $(document).ready(function(){
         var d = new Date();
         var n = d.getHours();
         if (n > 19 || n < 6)
           // If time is after 7PM or before 6AM, apply night theme to ‘body’
-          document.html.className = "night";
+          document.body.className = "night";
         else
           // Else use ‘day’ theme
-          document.html.className = "day";
+          document.body.className = "day";
         });
     </script>
     <!-- Fonts -->
