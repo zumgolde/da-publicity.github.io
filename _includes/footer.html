@@ -3,11 +3,13 @@
     <figure><a href="{{ site.baseurl }}/{{ site.vcard }}" style="background-image: none;"><img class="qrcode" src="{{ site.qrcard }}" width="75" height="75" alt="{{ site.vcard_message }}" /></a>
     <figcaption style="text-align:center;"> vCard 2.1 </figcaption></figure>
   </div>
+  <div class="measure">
   {% for page in site.pages %}
       {% if page.navigation contains "footer" %}
           <a href="{{ page.url }}">{{ page.title }}</a>
       {% endif %}
   {% endfor %}
+ <div class="measure">
 </footer>
 {% if site.enable_anchorjs %}<!-- AnchorJS -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/3.0.0/anchor.min.js"></script>
