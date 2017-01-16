@@ -39,10 +39,10 @@
         var n = d.getHours();
         if (n > 19 || n < 6)
           // If time is after 7PM or before 6AM, apply night theme to ‘body’
-          document.html.className = "night";
+          document.html.addClass = "night";
         else
           // Else use ‘day’ theme
-          document.html.className = "day";
+          document.html.addClass = "day";
         });
     </script>
     <!-- Fonts -->
