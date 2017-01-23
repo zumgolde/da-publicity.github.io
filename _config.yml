@@ -14,7 +14,7 @@ vcard_message:  "SCAN OR DOWNLOAD!"
 avatar:      "images/me.jpeg"
 
 description: "Berlin based freelance public relations and social media manager specialized in literature and music suitable for children."
-baseurl:     "{% baseurl %}/about"
+baseurl:     ""
 url:         "http://altenburger-pr.de"
 date_format: "%Y-%m-%d" 
 
