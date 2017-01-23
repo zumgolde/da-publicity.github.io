@@ -5,6 +5,15 @@ permalink: /projects/
 tags: projects
 ---
 
-- BREATHING BOOKS (USA)
+- ATMENDE BÜCHER (FRG)
+Pressearbeit für Cornelia Funke
+
 - GERMANWAHNSINN (FRG)
+einzelne Projekte, RADAU!
+
 - PHAIDON (GB)
+kompl. Pressearbeit
+
+- Dressler / Oetinger / Oetinger Media (FRG)
+einzelne Projekte
+
